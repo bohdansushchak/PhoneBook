@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="sokolovska.sushchak.projektphonebook.activities.FullDataContactActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_image_for_bnd"
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/iv_mage_full"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/iv_image_small"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/dimen_bottom_image_small"
+            android:layout_marginStart="@dimen/dimen_left_image_small"
+            android:background="@drawable/person"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:text="Bohdan Sushchak"
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/dimen_bottom_image_small"
+            android:layout_marginStart="75dp"
+            android:textColor="@color/TextBlack"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_back"
+            android:onClick="clickBack"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_edit"
+            android:onClick="clickEdit"/>
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_all_data_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

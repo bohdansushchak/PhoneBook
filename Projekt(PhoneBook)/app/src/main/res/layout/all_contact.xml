@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <SearchView
+        android:id="@+id/SearchView"
+        android:iconifiedByDefault="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/searchBackgroundClolor" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_height="100dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/scrollbar_style"
+        android:scrollbars="vertical"
+        android:id="@+id/rv_all_contacts"
+        android:cacheColorHint="@color/colorPrimaryDark"
+        android:paddingTop="10dp"
+        android:divider="@color/grey"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="5dp"/>
+
+</LinearLayout>

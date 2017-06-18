@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+
+    <ImageView
+        android:background="@color/backgroundImage"
+        android:id="@+id/iv_image_item_ch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/dimen_bottom_image_small"
+        android:layout_marginTop="@dimen/dimen_bottom_image_small"
+        android:layout_marginBottom="@dimen/dimen_bottom_image_small"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/person" />
+
+    <TextView
+        android:text="@string/menu_item_filter"
+        android:id="@+id/tv_list_second_name_ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/iv_image_item_ch"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:text="@string/menu_item_filter"
+        android:id="@+id/tv_list_name_ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/tv_list_second_name_ch"
+        android:layout_marginStart="10dp" />
+
+
+
+</RelativeLayout>

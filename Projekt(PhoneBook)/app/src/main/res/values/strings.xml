@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Kontakty</string>
+
+    <string name="search_view">Poszukiwanie</string>
+
+    <string name="menu_item_add">Dodać</string>
+    <string name="menu_item_delete">Usuń</string>
+    <string name="menu_item_share">Wysłać</string>
+    <string name="menu_item_filter">Filtruj</string>
+    <string name="menu_item_settings">Ustawienia</string>
+    <string name="menu_item_list">Lista</string>
+    <string name="menu_item_grid">Tabela</string>
+
+
+    <string name="add_name_and_surname">Imię oraz Nazwisko</string>
+    <string name="add_name">Imię</string>
+    <string name="add_secondName">Nazwisko</string>
+    <string name="add_middleName">Imię rodowe</string>
+    <string name="add_mobile">Numer</string>
+    <string name="add_workMobile">Roboczy numer</string>
+    <string name="add_mail">Poczta</string>
+    <string name="add_workMail">Poczta robocza</string>
+    <string name="add_address">Adres</string>
+    <string name="add_workAddress">Adres roboczy</string>
+    <string name="add_happyBirthday">Urodziny</string>
+    <string name="add_note">Notatka</string>
+    <string name="add_group">Grupa</string>
+
+    <string-array name="data_names">
+        <item>Numer osobisty</item>
+        <item>Roboczy numer</item>
+        <item>Poczta</item>
+        <item>Robocza boczta</item>
+        <item>Adres</item>
+        <item>Roboczy adres</item>
+        <item>Urodziny</item>
+    </string-array>
+
+    <string name="menu_open_contact">Otwórz</string>
+    <string name="menu_delete_contact">Usuń</string>
+    <string name="menu_edit_contact">Edytuj</string>
+    <string name="menu_share_contact">Wyślij</string>
+
+
+    <string name="button_add_save">Zapisz</string>
+    <string name="button_add_cancel">Pomiń</string>
+    <string name="add_vip">vip</string>
+
+
+    <string name="all_pols_null">Wpisz imię</string>
+
+
+    <string name="group_vip">vip</string>
+    <string name="group_rodzina">Rodzina</string>
+    <string name="group_kolege">Kolegę</string>
+    <string name="group_neighbors">Sąsiedzi</string>
+    <string name="group_iidp">IID-P</string>
+
+
+    <string name="choose_group">Wybierz grupę</string>
+    <string name="create_group">Utwórz grupę</string>
+
+    <string name="choose_date">Wybierz date</string>
+
+    <string name="title_add_into_calendar">Urodziny</string>
+    <string name="exception_add_into_calendar">Coś poszło nie tak</string>
+
+
+    <string name="btn_remove">Usuń</string>
+    <string name="btn_cancel">Pomiń</string>
+
+</resources>

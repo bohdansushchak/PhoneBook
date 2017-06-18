@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_add_contact"
+        android:icon="@drawable/ic_add"
+        android:title="@string/menu_item_add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_item_delete_ch_contacts"
+        android:title="@string/menu_item_delete"/>
+
+    <item
+        android:id="@+id/menu_item_filter"
+        android:title="@string/menu_item_filter"/>
+
+    <group android:id="@+id/group"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/menu_item_list"
+            android:title="@string/menu_item_list" />
+
+        <item android:id="@+id/menu_item_grid"
+            android:title="@string/menu_item_grid"/>
+    </group>
+</menu>

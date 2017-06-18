@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_left_image_small">10dp</dimen>
+    <dimen name="dimen_bottom_image_small">10dp</dimen>
+
+
+    <dimen name="width_editText">180dp</dimen>
+
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

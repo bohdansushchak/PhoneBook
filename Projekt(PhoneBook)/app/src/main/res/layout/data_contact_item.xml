@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:text="some number"
+        android:id="@+id/tv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_alignTop="@+id/iv_icon"
+        android:layout_toStartOf="@+id/i_btn"
+        android:layout_toEndOf="@+id/iv_icon"
+        android:textSize="18sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:text="some title"
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/i_btn"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv_data"
+        android:layout_alignStart="@+id/tv_data" />
+
+    <ImageButton
+        android:id="@+id/i_btn"
+        android:background="@drawable/ic_textsms24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_icon"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
