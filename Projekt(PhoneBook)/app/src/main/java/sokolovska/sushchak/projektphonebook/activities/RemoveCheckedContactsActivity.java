@@ -38,6 +38,7 @@ public class RemoveCheckedContactsActivity extends AppCompatActivity {
         init();
     }
 
+
     private void init(){
         contacts = getDataDB();
         if(contacts.size() != 0) {
